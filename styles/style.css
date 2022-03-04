@@ -1,10 +1,37 @@
-body {
-  background-color: aquamarine;
+.hero-header {
+  text-align: center;
+  background-color: #f9f7fe;
+  height: 600px;
+  padding: 100px 160px;
 }
-h1 {
-  color: azure;
+
+.hero-header h1 {
   font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 127px;
 }
-p {
+
+.hero-header h2 {
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.hero-header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.btn-hero {
+  background: #6c63ff;
+  border-radius: 4px;
+  padding: 16px 46px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
 }
