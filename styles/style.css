@@ -5,6 +5,19 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+}
+
 .hero-header {
   text-align: center;
   background-color: var(--secondary-color);
