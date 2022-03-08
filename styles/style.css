@@ -54,6 +54,9 @@ p {
   font-family: var(--default-font-family);
   margin: 20px auto;
 }
+.btn-hero:hover {
+  color: #ffffff;
+}
 
 .project-btn {
   font-family: var(--default-font-family);
@@ -62,6 +65,9 @@ p {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 18px 30px;
+}
+.project-btn:hover {
+  color: #6c63ff;
 }
 
 .project-discribtion {
