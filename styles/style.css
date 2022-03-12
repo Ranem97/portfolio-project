@@ -21,6 +21,36 @@ p {
   font-style: normal;
   font-family: var(--default-font-family);
 }
+.container nav {
+  padding: 20px 0;
+}
+nav ul {
+  list-style: none;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  padding: 0 10px;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.logo {
+  max-height: 40px;
+}
 
 .content {
   padding: 120px 30px;
