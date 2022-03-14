@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#6c63ff">
+    <meta name="description" content="the works of ranem al haffar can be found here.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -19,23 +20,45 @@
         rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/5c0bd128e0.js" crossorigin="anonymous"></script>
-    <title>Ranem Al-Haffar - Front-end developer</title>
+    <title>Ranem Al-Haffar - Work</title>
 </head>
 
 <body>
+    <div class="container">
+        <nav class=" d-flex justify-content-between">
+            <img src="/images/logo (1).jpg" alt="Ranem al haffar's logo" class="logo d-none d-md-block"
+                title="Homepage">
+            <img src="/images/logo-small.jpg" alt="Ranem al haffar's logo" class="logo d-block d-md-none"
+                title="Homepage">
+            <ul>
+                <li>
+                    <a href="/" title="homepage">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="about ranem">About</a>
+                </li>
+                <li class="active">
+                    <a href="/work.html" title="ranem's work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="contact ranem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
         <div class="content">
             <h1 class=" mb-5">Take a look at what I've been working on!</h1>
             <div class="row">
                 <div class="col-md-6 mb-4 ">
-                    <img src="images/yougurt.jpg" class="img-fluid" alt="">
+                    <img src="images/yougurt.jpg" class="img-fluid" alt="Yogurt Project">
                     <h3 class="text-center">Yogurt Project</h3>
                     <p class="text-center text-muted">Build with
                         HTML & CSS
                     </p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/weather.jpg" class="img-fluid" alt="">
+                    <img src="images/weather.jpg" class="img-fluid" alt="Weather Project">
                     <h3 class="text-center">Weather Project</h3>
                     <p class="text-center text-muted">Build with
                         HTML & CSS and Javascript
@@ -44,14 +67,14 @@
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <img src="images/dictionary.jpg" class="img-fluid" alt="">
+                    <img src="images/dictionary.jpg" class="img-fluid" alt="Dictionary Project">
                     <h3 class="text-center">Dictionary Project</h3>
                     <p class="text-center text-muted">Build with
                         React
                     </p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/Translation.jpg" class="img-fluid" alt="">
+                    <img src="images/Translation.jpg" class="img-fluid" alt="Translation Project">
                     <h3 class="text-center">Translation Project</h3>
                     <p class="text-center text-muted">Build with
                         React
@@ -59,6 +82,44 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h4>Work Inquiry</h4>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-hero" title="contact ranem">
+                        Contact me
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-center email-link mb-5">
+                <a href="mailto:ranem.alhaffar@hotmail.com" title="email ranem">ranem@hotmail.com</a>
+            </div>
+            <div class="social-links d-flex justify-content-center mb-5">
+                <a href="https://github.com/Ranem97" target="_blank" title="Ranem Github profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="http://facebook.com/ranem.haffar1" target="_blank" title="Ranem facebook profile">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/ranem.haffar" target="_blank" title="ranem instagram profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="text-center mt-5">
+                👩‍💻 This project was coded by Ranem Al Haffar, and it is
+                <a href="https://github.com/Ranem97/portfolio-project" target="_blank">
+                    open source
+                </a>
+                .
+            </p>
+        </footer>
     </div>
 
 </body>
