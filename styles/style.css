@@ -240,4 +240,7 @@ footer .btn-hero {
   .my-pic {
     margin: 0 auto;
   }
+  nav a {
+    font-size: 14px;
+  }
 }
