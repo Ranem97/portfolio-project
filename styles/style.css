@@ -224,6 +224,7 @@ footer .btn-hero {
   width: 720px;
   background: #f9f7fe;
   border-radius: 5px;
+  margin: 0 auto;
 }
 .wrapper header {
   font-size: 22px;
