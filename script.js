@@ -13,8 +13,7 @@ xhr.open("POST" , "message.php" , true);   //sending post request to message.php
 xhr.onload = ()=> { //once ajax loaded
 if(xhr.readyState == 4 && xhr.status == 200){
     let response = xhr.response; //storing ajax response in a new response variable
-    if (response.indexOf("Email and Message Filds are required!") != -1 ||response.indexOf("Enter a valid email address!") ||response.indexOf("Sorry, failed to send your message!")
-    ){
+    if (response.indexOf("Email and Message Filds are required!") != -1 ||response.indexOf("Enter a valid email address!") ||response.indexOf("Sorry, failed to send your message!") ){
         statusTxt.style.color = "red";
     }else{
         form.reset();
